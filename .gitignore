@@ -1,4 +1,3 @@
 # ignore executables (files with no extension)
-*
 !*.gitignore
 !Makefile

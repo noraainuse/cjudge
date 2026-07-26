@@ -10,7 +10,6 @@ int main() {
     scanf("%30s", sname1);
 
     scanf(" %80[^\n]", person2);
-
     scanf(" %80[^\n]", person3);
 
     printf("Person 1: %s %s\n", fname1, sname1);

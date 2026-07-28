@@ -12,7 +12,7 @@ int main() {
             n--;
         }
     }
-    if (n < 0) {
+    else if (n < 0) {
         while (n <= 0) {
             printf("%s%d", sep, n);
             sep = " ";

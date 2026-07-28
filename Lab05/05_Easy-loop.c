@@ -5,10 +5,20 @@ int main() {
     scanf("%d", &n);
     char *sep = "";
 
-    while (n >= 0) {
-        printf("%s%d", sep, n);
-        sep = " ";
-        n--;
+    if (n > 0) {
+        while (n >= 0) {
+            printf("%s%d", sep, n);
+            sep = " ";
+            n--;
+        }
+    }
+    if (n < 0) {
+        while (n <= 0) {
+            printf("%s%d", sep, n);
+            sep = " ";
+            n++;
+        }
+        
     }
     printf("\n");
     return 0;

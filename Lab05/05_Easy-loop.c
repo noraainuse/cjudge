@@ -11,6 +11,7 @@ int main() {
             sep = " ";
             n--;
         }
+        printf("\n");
     }
     else if (n < 0) {
         while (n <= 0) {
@@ -18,8 +19,10 @@ int main() {
             sep = " ";
             n++;
         }
-        
+        printf("\n");
     }
-    printf("\n");
+    else {
+        printf("%d\n", 0);
+    }
     return 0;
 }

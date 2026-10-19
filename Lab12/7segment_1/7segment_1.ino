@@ -43,6 +43,6 @@ void displayDigit(int digit) {
 void loop() {
   for (int i = 0; i < 10; i++) {
     displayDigit(i);
-    delay(1000); // 1 sec
+    delay(500); // 1 sec
   }
 }

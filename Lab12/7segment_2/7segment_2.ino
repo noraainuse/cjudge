@@ -40,9 +40,9 @@ void showTwoDigits(int digit1, int digit2) {
   unsigned long startTime = millis();
   while (millis() - startTime < 1000) {
     displayDigit(digit1, rightSegment);
-    delay(10);
+    delay(5);
     displayDigit(digit2, leftSegment);
-    delay(10);
+    delay(5);
   }
 }
 
